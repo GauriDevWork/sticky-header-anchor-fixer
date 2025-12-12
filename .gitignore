@@ -1,0 +1,19 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore LocalWP logs
+*.log
+
+# Ignore PHPStorm / VSCode settings
+.idea/
+.vscode/
+
+# Node modules (future-proof)
+node_modules/
+
+# Composer vendor
+/vendor/
+
+# WordPress directory clutter
+*.zip
