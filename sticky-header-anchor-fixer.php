@@ -14,6 +14,7 @@ defined( 'ABSPATH' ) || exit;
 class SHAF_Plugin {
 
     public static function init() {
+
         // Include files
         require_once plugin_dir_path( __FILE__ ) . 'includes/class-shaf-frontend.php';
         require_once plugin_dir_path( __FILE__ ) . 'includes/class-shaf-settings.php';
