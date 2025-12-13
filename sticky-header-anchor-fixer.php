@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Sticky Header Anchor Fixer
- * Plugin URI:  https://github.com/yourname/sticky-header-anchor-fixer
+ * Plugin URI:  https://github.com/GauriDevWork/sticky-header-anchor-fixer
  * Description: Fixes anchor links hidden behind sticky headers by adjusting scroll offset dynamically.
  * Version:     1.0.0
- * Author:      Your Name
+ * Author:      Gauri Kaushik
  * Text Domain: sticky-header-anchor-fixer
  * License:     GPLv2 or later
  */
