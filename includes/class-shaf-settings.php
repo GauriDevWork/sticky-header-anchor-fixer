@@ -55,8 +55,8 @@ class SHAF_Settings {
 
     public static function field_smooth() {
         $options = get_option( 'shaf_options', [] );
-        $checked = ! empty( $options['smooth'] ) ? 'checked' : '';
-        echo '<input type="checkbox" name="shaf_options[smooth]" value="1" ' . $checked . ' />';
+        $checked = ! empty( $options['smooth'] );
+        echo '<input type="checkbox" name="shaf_options[smooth]" value="1" ' . checked( $checked, true, false ) . ' />';
     }
 
     public static function settings_page() {
